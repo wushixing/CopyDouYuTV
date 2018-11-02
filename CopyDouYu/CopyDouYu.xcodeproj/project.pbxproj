@@ -8,19 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		9D0C17EA2184A706007F3F9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0C17E92184A706007F3F9B /* AppDelegate.swift */; };
-		9D0C17EC2184A706007F3F9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0C17EB2184A706007F3F9B /* ViewController.swift */; };
 		9D0C17EF2184A706007F3F9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0C17ED2184A706007F3F9B /* Main.storyboard */; };
 		9D0C17F12184A706007F3F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D0C17F02184A706007F3F9B /* Assets.xcassets */; };
-		9D0C17F42184A706007F3F9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0C17F22184A706007F3F9B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D0C17E62184A706007F3F9B /* CopyDouYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopyDouYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D0C17E92184A706007F3F9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D0C17EB2184A706007F3F9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9D0C17EE2184A706007F3F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D0C17F02184A706007F3F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9D0C17F32184A706007F3F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D0C17F52184A706007F3F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,6 +31,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D07E715218C907F007BC924 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D07E717218C90B7007BC924 /* Main */,
+				9D07E718218C90CF007BC924 /* Home */,
+				9D07E719218C90D7007BC924 /* Live */,
+				9D07E71B218C90FA007BC924 /* Follow */,
+				9D07E71A218C90EF007BC924 /* Profile */,
+				9D07E716218C909D007BC924 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9D07E716218C909D007BC924 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		9D07E717218C90B7007BC924 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9D07E718218C90CF007BC924 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9D07E719218C90D7007BC924 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		9D07E71A218C90EF007BC924 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9D07E71B218C90FA007BC924 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
 		9D0C17DD2184A706007F3F9B = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +105,10 @@
 		9D0C17E82184A706007F3F9B /* CopyDouYu */ = {
 			isa = PBXGroup;
 			children = (
+				9D07E715218C907F007BC924 /* Classes */,
 				9D0C17E92184A706007F3F9B /* AppDelegate.swift */,
-				9D0C17EB2184A706007F3F9B /* ViewController.swift */,
 				9D0C17ED2184A706007F3F9B /* Main.storyboard */,
 				9D0C17F02184A706007F3F9B /* Assets.xcassets */,
-				9D0C17F22184A706007F3F9B /* LaunchScreen.storyboard */,
 				9D0C17F52184A706007F3F9B /* Info.plist */,
 			);
 			path = CopyDouYu;
@@ -122,7 +172,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D0C17F42184A706007F3F9B /* LaunchScreen.storyboard in Resources */,
 				9D0C17F12184A706007F3F9B /* Assets.xcassets in Resources */,
 				9D0C17EF2184A706007F3F9B /* Main.storyboard in Resources */,
 			);
@@ -135,7 +184,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D0C17EC2184A706007F3F9B /* ViewController.swift in Sources */,
 				9D0C17EA2184A706007F3F9B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,14 +197,6 @@
 				9D0C17EE2184A706007F3F9B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9D0C17F22184A706007F3F9B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D0C17F32184A706007F3F9B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,8 +322,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CopyDouYu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,7 +333,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wushixing.CopyDouYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,8 +341,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CopyDouYu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wushixing.CopyDouYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
