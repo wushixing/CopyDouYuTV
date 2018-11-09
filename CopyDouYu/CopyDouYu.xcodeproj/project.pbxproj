@@ -8,16 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		9D0C17EA2184A706007F3F9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0C17E92184A706007F3F9B /* AppDelegate.swift */; };
-		9D0C17EF2184A706007F3F9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0C17ED2184A706007F3F9B /* Main.storyboard */; };
-		9D0C17F12184A706007F3F9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D0C17F02184A706007F3F9B /* Assets.xcassets */; };
+		9DA339922195B70F00EF45CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA339912195B70F00EF45CA /* Assets.xcassets */; };
+		9DA339942195BD2000EF45CA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA339932195BD2000EF45CA /* MainViewController.swift */; };
+		9DA339962195BD4C00EF45CA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA339952195BD4C00EF45CA /* HomeViewController.swift */; };
+		9DA339982195BD6E00EF45CA /* LivingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA339972195BD6E00EF45CA /* LivingViewController.swift */; };
+		9DA3399A2195BD8500EF45CA /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA339992195BD8500EF45CA /* DiscoverViewController.swift */; };
+		9DA3399C2195BD9400EF45CA /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA3399B2195BD9400EF45CA /* FollowViewController.swift */; };
+		9DA3399E2195BDA100EF45CA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA3399D2195BDA100EF45CA /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D0C17E62184A706007F3F9B /* CopyDouYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopyDouYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D0C17E92184A706007F3F9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D0C17EE2184A706007F3F9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9D0C17F02184A706007F3F9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D0C17F52184A706007F3F9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA339912195B70F00EF45CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../Desktop/Assets.xcassets; sourceTree = "<group>"; };
+		9DA339932195BD2000EF45CA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9DA339952195BD4C00EF45CA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9DA339972195BD6E00EF45CA /* LivingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivingViewController.swift; sourceTree = "<group>"; };
+		9DA339992195BD8500EF45CA /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		9DA3399B2195BD9400EF45CA /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		9DA3399D2195BDA100EF45CA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +46,8 @@
 			children = (
 				9D07E717218C90B7007BC924 /* Main */,
 				9D07E718218C90CF007BC924 /* Home */,
-				9D07E719218C90D7007BC924 /* Live */,
+				9D07E719218C90D7007BC924 /* Living */,
+				9D07E71C218C91F7007BC924 /* Discover */,
 				9D07E71B218C90FA007BC924 /* Follow */,
 				9D07E71A218C90EF007BC924 /* Profile */,
 				9D07E716218C909D007BC924 /* Tools */,
@@ -54,6 +65,7 @@
 		9D07E717218C90B7007BC924 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				9DA339932195BD2000EF45CA /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -61,20 +73,23 @@
 		9D07E718218C90CF007BC924 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				9DA339952195BD4C00EF45CA /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		9D07E719218C90D7007BC924 /* Live */ = {
+		9D07E719218C90D7007BC924 /* Living */ = {
 			isa = PBXGroup;
 			children = (
+				9DA339972195BD6E00EF45CA /* LivingViewController.swift */,
 			);
-			path = Live;
+			path = Living;
 			sourceTree = "<group>";
 		};
 		9D07E71A218C90EF007BC924 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				9DA3399D2195BDA100EF45CA /* ProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -82,8 +97,17 @@
 		9D07E71B218C90FA007BC924 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				9DA3399B2195BD9400EF45CA /* FollowViewController.swift */,
 			);
 			path = Follow;
+			sourceTree = "<group>";
+		};
+		9D07E71C218C91F7007BC924 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				9DA339992195BD8500EF45CA /* DiscoverViewController.swift */,
+			);
+			path = Discover;
 			sourceTree = "<group>";
 		};
 		9D0C17DD2184A706007F3F9B = {
@@ -107,9 +131,8 @@
 			children = (
 				9D07E715218C907F007BC924 /* Classes */,
 				9D0C17E92184A706007F3F9B /* AppDelegate.swift */,
-				9D0C17ED2184A706007F3F9B /* Main.storyboard */,
-				9D0C17F02184A706007F3F9B /* Assets.xcassets */,
 				9D0C17F52184A706007F3F9B /* Info.plist */,
+				9DA339912195B70F00EF45CA /* Assets.xcassets */,
 			);
 			path = CopyDouYu;
 			sourceTree = "<group>";
@@ -172,8 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D0C17F12184A706007F3F9B /* Assets.xcassets in Resources */,
-				9D0C17EF2184A706007F3F9B /* Main.storyboard in Resources */,
+				9DA339922195B70F00EF45CA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,21 +207,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D0C17EA2184A706007F3F9B /* AppDelegate.swift in Sources */,
+				9DA339982195BD6E00EF45CA /* LivingViewController.swift in Sources */,
+				9DA339942195BD2000EF45CA /* MainViewController.swift in Sources */,
+				9DA3399C2195BD9400EF45CA /* FollowViewController.swift in Sources */,
+				9DA3399E2195BDA100EF45CA /* ProfileViewController.swift in Sources */,
+				9DA339962195BD4C00EF45CA /* HomeViewController.swift in Sources */,
+				9DA3399A2195BD8500EF45CA /* DiscoverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9D0C17ED2184A706007F3F9B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D0C17EE2184A706007F3F9B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9D0C17F62184A706007F3F9B /* Debug */ = {
@@ -322,7 +339,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CopyDouYu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -341,7 +357,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CopyDouYu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
